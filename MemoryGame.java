@@ -100,7 +100,7 @@ public class MemoryGame {
       }
       
       rounds++;
-      speed *= 1.1;
+      speed *= 0.8;
       numLetters++;
       if (rounds % 2 == 0) {
         buttons++;
@@ -110,4 +110,5 @@ public class MemoryGame {
     
     
   }
+
 }
